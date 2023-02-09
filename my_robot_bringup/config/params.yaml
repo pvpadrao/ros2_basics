@@ -1,0 +1,14 @@
+#py_test = name of the node the parameters are related to
+py_test:
+  ros__parameters:
+    bool_value: True
+    int_number: 5
+    float_number: 3.14
+    str_text: "Paulo's here!"
+    bool_array: [True, False, False]
+    int_array: [0, 1, 2]
+    float_array: [0.1, 1.1, 2.2]
+    str_array: ["Paulo", "Padrao"]
+    bytes_array: [0x1, 0xF1]
+    nested_param:
+      another_int: 2023
